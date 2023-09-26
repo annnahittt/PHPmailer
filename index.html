@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>Отправка формы на почту </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-4">
+            <form action="mail.php" method="POST">
+                <legend>Forme</legend>
+
+                <div class="form-group">
+                    <label for="">Введите ваше имя</label>
+                    <input type="text" class="form-control" id="" name="user_name" placeholder="Full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Введите номер телефона</label>
+                    <input type="text" class="form-control" id="" name="user_phone" placeholder="Phone number">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Введите email</label>
+                    <input type="text" class="form-control" id="" name="user_email" placeholder="mail@mail.ru">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Отправить форму</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+	
